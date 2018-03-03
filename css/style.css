@@ -65,7 +65,7 @@ body {
 }
 
 .article {
-	width: 865px;
+	width: 867px;
 	background: #fff;
 	padding: 50px 30px;
 }
@@ -89,7 +89,6 @@ body {
 }
 
 .content {
-	margin-left: 35px;
 
 }
 
@@ -110,7 +109,7 @@ body {
 }
 
 .article-content p:first-child {
-	font: 17px 'Narrow', sans-serif;
+	font: 17px 'Arial Narrow', sans-serif;
 	
 }
 
@@ -121,7 +120,6 @@ body {
 a {
 	text-decoration: none;
 	color: #c8c8c8;
-	
 }
 
 .social {
@@ -149,4 +147,10 @@ a {
 	color: #e6618c;
 }
 
- 
+.ava1 {
+	margin-bottom: 30px;
+ }
+
+.ava1:hover {
+	
+}
