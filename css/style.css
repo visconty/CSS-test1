@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?9jjiw6');
+  src:  url('../fonts/icomoon.eot?9jjiw6#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?9jjiw6') format('truetype'),
+    url('../fonts/icomoon.woff?9jjiw6') format('woff'),
+    url('../fonts/icomoon.svg?9jjiw6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+  color: #989b9f;
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-behance:before {
+  content: "\eaa8";
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font: 14px 'Arial', sans-serif;
+	margin: 0;
+}
+
+.page {
+	background: #e4e4e2;
+	padding-top: 100px;
+	padding-left: 120px;
+}
+
+.article {
+	width: 865px;
+	background: #fff;
+	padding: 50px 30px;
+}
+
+.head {
+	color: #989b9f;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.head time {
+	margin: 0 auto 0 20px;
+}
+.head p {
+	margin: 0;
+}
+
+.content h1 {
+	font: 28px 'Yanone Kaffeesatz', sans-serif;
+}
+
+.content {
+	margin-left: 35px;
+
+}
+
+.imgpost { 
+	margin: 0 35px 15px 0;
+	border: 5px solid #f0f0f0;
+}
+
+.imgblock {
+	float: left;
+
+}
+
+.comment {
+	font: 12px 'Arial', sans-serif;
+	color: #8f9193;
+	display: block;
+}
+
+.article-content p:first-child {
+	font: 17px 'Narrow', sans-serif;
+	
+}
+
+.article-content {
+	padding-right: 180px;
+}
+
+a {
+	text-decoration: none;
+	color: #c8c8c8;
+	
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+.author {
+	float: right;
+	width: 58px;
+	text-align: center;
+}
+
+.author .ava,.name {
+	display: block;
+}
+
+.ava {
+	font: 20px 'Yanone Kaffeesatz', sans-serif;
+} 
+
+.name {
+	font: 12px Arial, sans-serif;
+	color: #e6618c;
+}
+
+ 
